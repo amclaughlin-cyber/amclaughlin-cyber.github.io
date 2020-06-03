@@ -1,0 +1,189 @@
+body { color: #000000;
+	font-family: "Times New Roman";
+    }
+	
+div  { color: #000000;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	text-align: center;
+    }
+
+header { text-align: center;
+	font-size: xxx-large;
+	font-family: "serif";
+	font-variant: small-caps;
+	font-stretch: ultra-expanded;
+}
+
+h2 { text-align: center;
+	font-size: xxx-large;
+	font-family: "serif";
+	font-variant: small-caps;
+	font-stretch: ultra-expanded;
+}
+
+.gamecolor {
+	height: 100%;
+	background-image: linear-gradient(crimson, white);
+	background-repeat: no-repeat;
+}
+
+.homecolor {
+	height: 100%;
+	background-color: #FF0000;
+}
+
+img {
+	max-width: 100%;
+}
+
+footer { text-align: center;
+	font-family: "Georgia";
+}
+
+nav li {
+	display: inline;
+	float: left;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 15%;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.button {
+  background-color: #1B1E25;
+  border: none;
+  color: white;
+  font-family: "Courier New",Courier,monospace;
+  font-size: 3;
+  padding: 30px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.7em;
+}
+
+nav li a:active {
+	text-decoration: underline;
+}
+
+nav a.selected {
+	text-decoration: underline;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:hover {
+    color: #FFFFFF;
+	font-style: italic;
+}
+
+body, html {
+    height: 100%;
+}
+
+article {
+		background-color: #FFFFFF;
+		color: #000000;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 30%;
+		border-style: solid;
+		border-top-width: 30%;
+		border-right-width: 30%;
+		border-bottom-width: 30%;
+		border-left-width: 30%;
+		border-color: #000000;
+	}
+	
+	/* Style for image element contained within the main article element */
+	main article img {
+		border: solid 0.1em #1D1D1C;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/* Style for paragraph element contained within the main article element */
+	main article p {
+		color: #FFFFFF;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+	}
+	
+	/* Style for unordered list element contained within the main article element */
+	main article ul {
+		text-align: left;
+	}
+	
+header {
+		text-align: center;
+		font-size: xxx-large;
+		font-family: "serif";
+		font-variant: small-caps;
+		font-stretch: ultra-expanded;
+	}
+
+.button {
+  background-color: #1B1E25;
+  border: none;
+  color: white;
+  font-family: "Courier New",Courier,monospace;
+  font-size: medium;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.article {
+		background-color: #FFFFFF;
+		color: #000000;
+		float: left;
+		margin: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 31%;
+	}
+	
+.aside {
+		background-color: #FFFFFF;
+		border-radius: 0 5em 5em 5em;
+		box-shadow: 1em 1em 1em #4C4F4D;
+		padding: 1.5em;
+		margin: 1em;
+	}
+
+.houses {
+		background-color: #FFFFFF;
+		color: #000000;
+		float: left;
+		margin-left: 23%;
+		margin-top: 0.5%;
+		padding: 0.5%;
+		text-align: center;
+		width: 50%;
+}
+
+
+
